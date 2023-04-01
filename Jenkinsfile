@@ -21,7 +21,7 @@ steps {
 
 sendSlackNotifications('STARTED') 
 
-git branch: 'development ', credentialsId: '709f1e88-aae4-4a13-8124-99147397353e', url: 'https://github.com/JashuwaSS/maven-web-application.git'
+  git branch: "${BranchName}", credentialsId: '709f1e88-aae4-4a13-8124-99147397353e', url: 'https://github.com/JashuwaSS/maven-web-application.git'
 
 }
 
