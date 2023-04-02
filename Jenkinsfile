@@ -59,7 +59,7 @@ steps {
 
 sshagent(['bd2cbae5-aa64-4275-b773-0559ed2f2aeb']) {
 
-sh "scp -o StrictHostKeyChecking=no target/maven-web-application.war ec2-user@13.232.108.132://opt/apache-tomcat-9.0.73/webapps/"
+sh "scp -o StrictHostKeyChecking=no target/maven-web-application.war ec2-user@13.235.113.172://opt/apache-tomcat-9.0.73/webapps/"
 }
 
 }
