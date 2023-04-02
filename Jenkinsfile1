@@ -11,7 +11,11 @@ maven "maven3.9.0"
 
 }
 
-agent any 
+agent {
+
+label 'birlasunlifenodes'
+
+}
 
 stages { //stages opening 
 
